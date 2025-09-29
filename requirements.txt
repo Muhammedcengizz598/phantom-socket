@@ -1,0 +1,144 @@
+# Phantom Socket Premium v2.0 - Gereksinimler
+# Geliştirici: Muhammed Cengiz
+# Platform: Linux, Termux, macOS
+# Python Versiyonu: 3.6+
+
+# ============================================
+# TEMEL KÜTÜPHANELER
+# ============================================
+# Not: Aşağıdaki kütüphaneler Python standart kütüphanesidir
+# ve genellikle otomatik olarak yüklüdür. Ancak bazı minimal
+# Python kurulumlarında eksik olabilir.
+
+# socket - Ağ bağlantıları için (Standart kütüphane)
+# threading - Çoklu thread desteği için (Standart kütüphane)
+# time - Zaman işlemleri için (Standart kütüphane)
+# sys - Sistem işlemleri için (Standart kütüphane)
+# json - JSON işlemleri için (Standart kütüphane)
+# os - İşletim sistemi işlemleri için (Standart kütüphane)
+# datetime - Tarih/saat işlemleri için (Standart kütüphane)
+# subprocess - Alt süreç yönetimi için (Standart kütüphane)
+# re - Regex işlemleri için (Standart kütüphane)
+# concurrent.futures - Gelişmiş thread yönetimi için (Standart kütüphane)
+
+# ============================================
+# OPSIYONEL KÜTÜPHANELER (Performans İyileştirme)
+# ============================================
+
+# colorama - Windows için renkli terminal desteği (Opsiyonel)
+# Linux ve Termux'ta gerekli değildir, ancak Windows'ta kullanışlıdır
+colorama>=0.4.4; platform_system=="Windows"
+
+# ============================================
+# GELİŞMİŞ ÖZELLIKLER İÇİN (Opsiyonel)
+# ============================================
+
+# requests - HTTP istekleri için (Gelişmiş banner grabbing)
+# requests>=2.25.0
+
+# scapy - Gelişmiş ağ paket analizi için
+# scapy>=2.4.5
+
+# python-nmap - Nmap entegrasyonu için
+# python-nmap>=0.7.1
+
+# ============================================
+# KURULUM TALİMATLARI
+# ============================================
+
+# Linux/macOS için:
+# pip3 install -r requirements.txt
+
+# Termux için:
+# pip install -r requirements.txt
+
+# Minimal kurulum (sadece temel özellikler):
+# pip3 install colorama
+
+# Tam kurulum (tüm özellikler):
+# pip3 install -r requirements.txt --upgrade
+
+# ============================================
+# SİSTEM GEREKSİNİMLERİ
+# ============================================
+
+# Python: 3.6 veya üzeri
+# RAM: Minimum 512 MB (Önerilen: 1 GB+)
+# Disk: 50 MB boş alan
+# İnternet: Gerekli (tarama için)
+
+# ============================================
+# PLATFORM NOTLARI
+# ============================================
+
+# LINUX:
+# - Tüm özellikler desteklenir
+# - Root yetkisi bazı portlar için gerekebilir
+# - Kurulum: sudo apt install python3 python3-pip
+
+# TERMUX (Android):
+# - Tüm özellikler desteklenir
+# - Root gerekmez
+# - Kurulum: pkg install python git
+
+# macOS:
+# - Tüm özellikler desteklenir
+# - Homebrew ile Python kurulumu önerilir
+# - Kurulum: brew install python3
+
+# WINDOWS:
+# - WSL (Windows Subsystem for Linux) kullanımı önerilir
+# - Bazı özellikler kısıtlı olabilir
+# - colorama kütüphanesi gereklidir
+
+# ============================================
+# SORUN GİDERME
+# ============================================
+
+# Hata: "ModuleNotFoundError"
+# Çözüm: pip3 install -r requirements.txt --upgrade
+
+# Hata: "Permission denied"
+# Çözüm: pip3 install --user -r requirements.txt
+
+# Hata: "pip not found"
+# Linux: sudo apt install python3-pip
+# Termux: pkg install python-pip
+# macOS: python3 -m ensurepip
+
+# ============================================
+# GÜVENLİK NOTLARI
+# ============================================
+
+# - Sadece güvenilir kaynaklardan paket yükleyin
+# - Paketleri düzenli olarak güncelleyin
+# - Sanal ortam (venv) kullanımı önerilir
+
+# Sanal ortam oluşturma:
+# python3 -m venv phantom_env
+# source phantom_env/bin/activate  # Linux/macOS
+# pip install -r requirements.txt
+
+# ============================================
+# DESTEK VE İLETİŞİM
+# ============================================
+
+# GitHub: https://github.com/Muhammedcengizz598/
+# Issues: https://github.com/Muhammedcengizz598/phantom-socket/issues
+
+# ============================================
+# LİSANS
+# ============================================
+
+# MIT License
+# Copyright (c) 2024 Muhammed Cengiz
+# Detaylar için LICENSE dosyasına bakın
+
+# ============================================
+# SÜRÜM BİLGİSİ
+# ============================================
+
+# Phantom Socket Premium: v2.0
+# Requirements Version: 1.0
+# Son Güncelleme: 2024
+# Geliştirici: Muhammed Cengiz
