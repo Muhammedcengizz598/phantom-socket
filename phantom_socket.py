@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         PHANTOM SOCKET PREMIUM v2.0                         ║
-║                         Geliştirici: KodClup                                ║
+║                         PHANTOM SOCKET PREMIUM v2.0                          ║
+║                         Geliştirici: Muhammed cengiz                         ║
 ║                                                                              ║
 ║  ETİK KULLANIM UYARISI:                                                      ║
-║  Bu araç sadece eğitim amaçlı geliştirilmiştir. Yalnızca kendi              ║
-║  laboratuvar ortamınızda ve izniniz olan sistemlerde kullanın.              ║
-║  Yetkisiz sistemlerde kullanımı yasaktır ve yasal sorumluluk                ║
-║  kullanıcıya aittir.                                                        ║
+║  Bu araç sadece eğitim amaçlı geliştirilmiştir. Yalnızca kendi               ║
+║  laboratuvar ortamınızda ve izniniz olan sistemlerde kullanın.               ║
+║  Yetkisiz sistemlerde kullanımı yasaktır ve yasal sorumluluk                 ║
+║  kullanıcıya aittir.                                                         ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 """
 
@@ -147,30 +147,30 @@ class PhantomSocketPremium:
         """Gelişmiş araç başlığını yazdır"""
         banner = f"""
 {Colors.PURPLE}╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
+║                                                                                                        ║
 ║  {Colors.CYAN}██████╗ ██╗  ██╗ █████╗ ███╗   ██╗████████╗ ██████╗ ███╗   ███╗{Colors.PURPLE}           ║
 ║  {Colors.CYAN}██╔══██╗██║  ██║██╔══██╗████╗  ██║╚══██╔══╝██╔═══██╗████╗ ████║{Colors.PURPLE}           ║
 ║  {Colors.CYAN}██████╔╝███████║███████║██╔██╗ ██║   ██║   ██║   ██║██╔████╔██║{Colors.PURPLE}           ║
 ║  {Colors.CYAN}██╔═══╝ ██╔══██║██╔══██║██║╚██╗██║   ██║   ██║   ██║██║╚██╔╝██║{Colors.PURPLE}           ║
 ║  {Colors.CYAN}██║     ██║  ██║██║  ██║██║ ╚████║   ██║   ╚██████╔╝██║ ╚═╝ ██║{Colors.PURPLE}           ║
 ║  {Colors.CYAN}╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝{Colors.PURPLE}           ║
-║                                                                              ║
+║                                                                                                        ║
 ║  {Colors.YELLOW}███████╗ ██████╗  ██████╗██╗  ██╗███████╗████████╗{Colors.PURPLE}                      ║
 ║  {Colors.YELLOW}██╔════╝██╔═══██╗██╔════╝██║ ██╔╝██╔════╝╚══██╔══╝{Colors.PURPLE}                      ║
 ║  {Colors.YELLOW}███████╗██║   ██║██║     █████╔╝ █████╗     ██║{Colors.PURPLE}                         ║
 ║  {Colors.YELLOW}╚════██║██║   ██║██║     ██╔═██╗ ██╔══╝     ██║{Colors.PURPLE}                         ║
 ║  {Colors.YELLOW}███████║╚██████╔╝╚██████╗██║  ██╗███████╗   ██║{Colors.PURPLE}                         ║
 ║  {Colors.YELLOW}╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝{Colors.PURPLE}                         ║
-║                                                                              ║
-║                     {Colors.BOLD}🔍 PREMIUM Port Tarama Aracı 🔍{Colors.PURPLE}                        ║
-║                              {Colors.GREEN}Geliştirici: KodClup{Colors.PURPLE}                            ║
-║                                {Colors.BLUE}Versiyon: 2.0 PREMIUM{Colors.PURPLE}                         ║
-║                                                                              ║
-║  {Colors.MAGENTA}✨ Premium Özellikler:{Colors.PURPLE}                                                ║
-║  {Colors.WHITE}• Gelişmiş Servis Tanıma    • Hızlı Çoklu Thread Tarama{Colors.PURPLE}                ║
-║  {Colors.WHITE}• Detaylı Güvenlik Analizi  • Kapsamlı Raporlama{Colors.PURPLE}                       ║
-║  {Colors.WHITE}• Banner Grabbing           • JSON Export{Colors.PURPLE}                              ║
-║                                                                              ║
+║                                                                                                        ║
+║                     {Colors.BOLD}🔍 PREMIUM Port Tarama Aracı 🔍{Colors.PURPLE}                       ║
+║                              {Colors.GREEN}Geliştirici: Muhammed cengiz{Colors.PURPLE}                 ║
+║                                {Colors.BLUE}Versiyon: 2.0 PREMIUM{Colors.PURPLE}                       ║
+║                                                                                                        ║
+║  {Colors.MAGENTA}✨ Premium Özellikler:{Colors.PURPLE}                                                 ║
+║  {Colors.WHITE}• Gelişmiş Servis Tanıma    • Hızlı Çoklu Thread Tarama{Colors.PURPLE}                  ║
+║  {Colors.WHITE}• Detaylı Güvenlik Analizi  • Kapsamlı Raporlama{Colors.PURPLE}                         ║
+║  {Colors.WHITE}• Banner Grabbing           • JSON Export{Colors.PURPLE}                                ║
+║                                                                                                        ║
 ╚══════════════════════════════════════════════════════════════════════════════╝{Colors.END}
 
 {Colors.RED}⚠️  ETİK KULLANIM UYARISI ⚠️{Colors.END}
